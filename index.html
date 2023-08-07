@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./resources/css/bootstrap.min.css">
     <link rel="stylesheet" href="./style.css">
+    <style>
+        
+    </style>
     <title>Lankan Foods</title>
 </head>
 <body>
@@ -39,72 +42,60 @@
                     "rice and curry," where steamed rice is served
                     with an array of curries. These curries can include meat or fish,
                     but there are also many delicious vegetarian options.
-                    <br>
-                    <img src="./image/rice-cury.jpg" alt="Rice and Curry">
                 </li>
                 
                 <li>
                     <b><i>Hoppers (Appa):</i></b><br> These are bowl-shaped pancakes made from rice flour and coconut milk. There are two main types: plain
                     hoppers and egg hoppers, which have an egg cracked into the center.
-                    <br>
-                    <img src="./image/hoppers.jpg" alt="hoppers">
                 </li>
 
                 <li>
                     <b><i>Kottu Roti:</i></b><br> A popular street food, kottu roti is made from shredded flatbread mixed with vegetables, egg, and your
                     choice of meat or seafood. It's chopped and stir-fried on a hot griddle with a variety of spices.
-                    <br>
-                    <img src="./image/kottu-roti-Sri-Lanka.webp" alt="koththu">
                 </li>
 
                 <li>
                     <b><i>Lamprais:</i></b><br> This is a Dutch-influenced dish where rice is mixed with a combination of meat (often beef, chicken, or pork),
                     sambal (chili paste), and spices. The mixture is then wrapped in a banana leaf and steamed.
-                    <br>
-                    <img src="./image/Lamprais_SriLanka.jpg" alt="Lamprais">
                 </li>
 
                 <li>
                     <b><i>Pol Sambol:</i></b><br> A side dish made from freshly grated coconut, red onions, chili peppers, lime juice, and sometimes Maldive
                     fish. It adds a spicy kick to meals and complements rice and curry dishes.
-                    <br>
-                    <img src="./image/pol-sambola.webp" alt="pol sambola">
                 </li>
 
                 <li>
                     <b><i>Fish Ambul Thiyal:</i></b><br> A sour and spicy fish curry made with tamarind, goraka (dried Garcinia cambogia fruit), and various
                     spices. It's a unique and flavorful preparation.
-                    <br>
-                    <img src="./image/ambul-thiyal-image.jpg" alt="Ambul Thiyal">
                 </li>
 
                 <li>
                     <b><i>Wambatu Moju:</i></b><br> An eggplant pickle cooked with spices, vinegar, and sugar, giving it a sweet and tangy flavor.
-                    <br>
-                    <img src="./image/wambatu-moju.jpg" alt="Wambatu Moju">
                 </li>
 
                 <li>
                     <b><i>Kiribath:</i></b><br> A ceremonial dish of milk rice, traditionally served during important occasions like Sinhalese New Year. It's
                     made by cooking rice in coconut milk and served with a variety of accompaniments.
-                    <br>
-                    <img src="./image/Kiribath.jpg" alt="Kiribath">
                 </li>
 
                 <li>
                     <b><i>Pittu:</i></b><br> A cylindrical-shaped steamed dish made from rice flour and grated coconut, often served with a curry.
-                    <br>
-                    <img src="./image/Pittu.jpg" alt="Pittu">
                 </li>
 
                 <li>
                     <b><i>Roti:</i></b><br> Sri Lankan roti is a type of flatbread, typically served with curry or used as a wrap for various fillings like
                     vegetables, meat, or cheese.
                     <br>
-                    <img src="./image/Roti.jpg" alt="Roti">
                 </li>
              </ol>
-             <br>
+             <div class="anim">
+                <img src="./image/mouthwatering-healthy.jpg" alt="animation" id="elementToAnimate">
+                <script>
+                    const element = document.getElementById('elementToAnimate');
+                    element.style.opacity = '1';
+                    element.style.transform = 'translateX(0)';
+                </script>
+            </div>
              <p>
                 Sri Lanka's culinary landscape is a treasure trove of delectable dishes that cater to a wide array of taste preferences.
                 From mouthwatering street food to elaborate feasts, the country's diverse cuisine is a reflection of its rich cultural
@@ -120,20 +111,8 @@
                 The infusion of coconut into Sri Lankan cuisine is a hallmark of its tropical abundance, and Pol Sambol exemplifies the
                 country's skilled use of this versatile ingredient. This fiery coconut relish, prepared with freshly grated coconut, red
                 onions, spicy chili peppers, zesty lime juice, and a hint of Maldive fish, adds a burst of flavors to every meal and is
-                a perfect side to complement the diverse array of curries. <br><br>
-                
-                For seafood enthusiasts, the Fish Ambul Thiyal is an extraordinary treat. This tangy and spicy fish curry, slow-cooked
-                with tamarind and dried Garcinia cambogia fruit (goraka), showcases the ingenuity of Sri Lankan chefs in blending sour
-                and aromatic elements into a harmonious symphony of taste. <br><br>
-                
-                A fusion of cultures can be savored in the renowned Lamprais, a dish with Dutch origins. A delectable mix of rice, meats
-                like chicken, beef, or pork, and a medley of spices, all artfully wrapped in a banana leaf and steamed, results in a
-                tantalizing and aromatic experience. <br><br>
-                
-                Sri Lanka's culinary journey also features vegetarian delights such as Egg Hoppers, a variation of hoppers with a
-                cracked egg cooked in the center, creating a symphony of flavors and textures. Wambatu Moju, a sweet and sour eggplant
-                pickle, captures the balance of tanginess and sweetness that characterizes the island's cuisine. <br><br>
-                
+                a perfect side to complement the diverse array of curries. <br>
+                <br>
                 With an assortment of dishes like Pittu, String Hoppers (Idiyappam), Gotu Kola Sambol, and Kiribath, the dining
                 experience in Sri Lanka reveals a deep-rooted connection to its cultural celebrations and rituals. The Kiribath, for
                 instance, holds special significance during important occasions like the Sinhalese New Year, symbolizing prosperity and
@@ -146,21 +125,50 @@
                 that make this island nation a true food lover's paradise. 
              </p>
         </div>
+
         <div class="tbl">
             <table>
                 <tr>
-                    <td><img src="./image/rice-cury.jpg" alt="rice-cury"></td>
-                    <td><img src="./image/hoppers.jpg" alt="hoppers"></td>
-                    <td><img src="./image/kottu-roti-Sri-Lanka.webp" alt="Kottu Roti"></td>
+                    <td>
+                        <img src="./image/rice-cury.jpg" alt="rice-cury">
+                        <p>Rice and Curry</p>
+                    </td>
+                    <td>
+                        <img src="./image/hoppers.jpg" alt="hoppers">
+                        <p>hoppers</p>
+                    </td>
+                    <td>
+                        <img src="./image/kottu-roti-Sri-Lanka.webp" alt="Kottu Roti">
+                        <p>Koththu Roti</p>
+                    </td>
                 </tr>
                 <tr>
-                    <td><img src="./image/Lamprais_SriLanka.jpg" alt=""></td>
-                    <td><img src="./image/pol-sambola.webp" alt=""></td>
-                    <td><img src="./image/ambul-thiyal-image.jpg" alt=""></td>
+                    <td>
+                        <img src="./image/Lamprais_SriLanka.jpg" alt="Lamprais_SriLanka">
+                        <p>Lamprais</p>
+                    </td>
+                    <td>
+                        <img src="./image/pol-sambola.webp" alt="pol-sambola">
+                        <p>Pol Sambola</p>
+                    </td>
+                    <td>
+                        <img src="./image/ambul-thiyal-image.jpg" alt="ambul-thiyal">
+                        <p>Ambul Thiyal</p>
+                    </td>
                 </tr>
                 <tr>
-                    <td><img src="./image/wambatu-moju.jpg" alt=""></td>
-                    <td><img src="./" alt=""></td>
+                    <td>
+                        <img src="./image/wambatu-moju.jpg" alt="wambatu-moju">
+                        <p>Wambatu Moju</p>
+                    </td>
+                    <td>
+                        <img src="./image/Kiribath.jpg" alt="Kiribath">
+                        <p>Kiribath</p>
+                    </td>
+                    <td>
+                        <img src="./image/Pittu.jpg" alt="Pittu">
+                        <p>Pittu</p>
+                    </td>
                 </tr>
             </table>
         </div>
