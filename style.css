@@ -62,11 +62,15 @@
 #elementToAnimate {
     opacity: 0;
     transform: translateX(-100%);
-    transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+    transition: transform 1s ease-in-out, opacity 4s ease-in-out;
 }
 .anim{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: ;
+    margin-bottom: 20px;
+}
+footer{
+    background-color: rgb(255, 250, 182);
+    padding: 10px;
 }
