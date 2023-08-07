@@ -1,7 +1,24 @@
 #nav_color{
     background-color: darkkhaki;
+    padding-top: 15px;
+    padding: 10px;
+    font-size: 32px;
 }
 .nav_tpc{
     text-align: center;
     text-decoration: none;
+}
+.home_image1{
+    width: 100%;
+    height: 500px;
+}
+.des1{
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 50px;
+}
+.des1 h1{
+    text-align: center;
+    margin-bottom: 40px;
 }
