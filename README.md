@@ -1,1 +1,2 @@
 # Lankan-Foods
+I just create this responsive web site to complete as assessment when i follow the Trainee full stack developer course "Web Design for Biginners" provided by Center for open and distance learning University Of Moratuwa.
