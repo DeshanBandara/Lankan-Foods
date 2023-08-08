@@ -1,3 +1,4 @@
+/*Navigation Bar*/
 .nav_color{
     width: 100%;
     position: none;
@@ -10,10 +11,12 @@
     text-align: center;
     text-decoration: none;
 }
+/*Main Image - First image*/
 .home_image1{
     width: 100%;
     height: 600px;
 }
+/*Description*/
 .des1{
     margin-top: 50px;
     margin-left: 250px;
@@ -58,18 +61,20 @@
     width: 300px;
     height: 300px;
 }
-
+/*JavaScript Part for Animation*/
 #elementToAnimate {
     opacity: 0;
     transform: translateX(-100%);
     transition: transform 1s ease-in-out, opacity 4s ease-in-out;
 }
+/*Styles For Animation*/
 .anim{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
 }
+/*Footer*/
 footer{
     background-color: rgb(255, 250, 182);
     padding: 10px;
